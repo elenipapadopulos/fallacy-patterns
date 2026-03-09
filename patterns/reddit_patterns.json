@@ -1,0 +1,49 @@
+[
+  {
+    "fallacy_class": "Irrelevant Authority",
+    "patterns": [
+      "A possesses status or expertise in field B. A makes claim C (often outside or without direct evidence in B). Therefore, C must be accepted as true or more valid than competing claims, irrespective of its own merits.",
+      "Listen to the experts/scientists/doctors rather than try to become one yourself.",
+      "Everyone I've spoken to (professionals, hunters, farmers, etc.) says…",
+      "Only the views of X matter.",
+      "All the <group of experts> agree, while dismissing others' arguments without engaging with evidence."
+    ]
+  },
+  {
+    "fallacy_class": "Hasty Generalization",
+    "patterns": [
+      "Premise: A limited or anecdotal subset of A (e.g., one's personal experiences or a few observed cases) exhibits property P. Conclusion: Therefore, all A (or the phenomenon as a whole) must exhibit property P (or consequence Q).",
+      "I (never) have(d) [experience] with A, so A must (not) be [P].",
+      "I know a few X who X, therefore all X.",
+      "Because my sample of A were fine, A must be harmless/beneficial.",
+      "Based on A anecdote, everyone must (feel/believe/do) Y.",
+      "Quick universal leaps: 'Since this happened once, it always/never happens.'",
+      "Dismissive questions or commands: 'Why would you … ?', 'You're all warnings/idiots.'",
+      "Percent or frequency claims from anecdotes: 'Half of my school … 99% of people … every time.'"
+    ]
+  },
+  {
+    "fallacy_class": "Ad Populum",
+    "patterns": [
+      "Premise: Group G (e.g. 'everyone', 'most people', 'X% of Y') believes or endorses proposition A. Unstated Principle: Widespread acceptance implies correctness (or falsity). Conclusion: Therefore, A must be valid/true (or invalid/false).",
+      "I think everyone agrees that A.",
+      "Most/virtually all people believe A.",
+      "Numerical appeals like '51% of X' or 'thousands of scientists.'",
+      "Appeals to anonymous masses ('the rest of the world,' 'every store'), expert-by-number appeals ('aggregate wisdom,' 'hundreds of people'), popularity voting metaphors ('let upvotes decide,' 'fan vote'), rhetorical questions and challenges ('It can't be the entire world wrong, can it?'), and dismissal of dissenters as lone or isolated ('you're the only one,' 'no one else')."
+    ]
+  },
+  {
+    "fallacy_class": "Black-and-White Fallacy",
+    "patterns": [
+      "Premise: Issue A is said to admit only two exclusive states B or C (¬B ⇒ C; ¬C ⇒ B) and no other alternative D is acknowledged. Conclusion: One must choose either B or C, with every nuance or middle ground dismissed.",
+      "Typical markers include phrases like 'Either A or B,' 'only option,' 'no middle ground,' 'you can't have it both ways,' 'pick one,' 'unless you take sides,' 'you must choose X or Y,' and 'the only alternative is…': language that signals a forced binary choice and excludes other possibilities."
+    ]
+  },
+  {
+    "fallacy_class": "Slippery Slope",
+    "patterns": [
+      "A ⇒ B ⇒ C ⇒ … ⇒ Z, therefore A ⇒ Z, where each transition (A → B, B → C, etc.) is asserted as unavoidable or necessary without justification.",
+      "Conditional constructs ('If we allow A, next will be B'), rhetorical questions ('Where do we stop?', 'What's to stop…?'), enumerative progressions ('first X, then Y, then Z'), warnings of 'dangerous precedents' or 'slippery slope,' and speculative modal verbs or adverbs ('could lead to,' 'inevitably,' 'one step closer')."
+    ]
+  }
+]
