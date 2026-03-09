@@ -1,0 +1,24 @@
+one-shot:
+  system_prompt:
+  - "You are a logical reasoning expert. Your task is to carefully examine the given argument and classify it into one of the following classes: {fallacies}. Return ONLY the name of the fallacy."
+  user_prompt: "Given an argument, your task is to classify the type of logical fallacy.
+    Choose the correct fallacy from the following list: {fallacies}. 
+    Use the following examples to guide your classification:"
+
+one-shot-exp:
+  system_prompt:
+  - "You are a logical reasoning expert. Your task is to carefully examine the given argument and classify it into one of the following classes: {fallacies}. Return ONLY the name of the fallacy."
+  user_prompt: "Given an argument, your task is to classify the type of logical fallacy.
+    Choose the correct fallacy from the following list: {fallacies}.
+    Use the following examples to guide your classification. Each example includes both the fallacy and a brief explanation of why it applies:"
+
+one-shot-exp-dynamic:
+  system_prompt:
+  - "You are a logical reasoning expert. Your task is to carefully examine the given argument and classify it into one of the following classes: {fallacies}. Return ONLY the name of the fallacy."
+  user_prompt: "Given an argument, your task is to classify the type of logical fallacy in a given text. 
+    Choose the correct fallacy from the following list: {fallacies}.
+    Use the examples below to guide your classification: each example includes both the fallacy and a brief explanation of why it applies. 
+    {examples}
+    You will be provided with a list of common patterns associated with each fallacy.
+    {patterns}
+    Carefully compare the argument to these patterns and select the fallacy that best matches. Provide only the name of the fallacy."

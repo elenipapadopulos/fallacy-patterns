@@ -1,0 +1,85 @@
+zero-shot:
+  system_prompt:
+  - "You are a logical reasoning expert. Your task is to carefully examine the given argument and classify it into one of the following classes: {fallacies}."
+  user_prompt: "Given an argument, classify the fallacy it contains using one of the following labels: {fallacies}.
+  Respond only with the name of the fallacy, with no additional text.\n
+  Argument: {text}\n 
+  Fallacy:"
+
+def: &def_block
+  system_prompt:
+  - "You are a logical reasoning expert. Your task is to carefully examine the given argument and classify it into one of the following classes: {fallacies}."
+  user_prompt: "Given an argument, classify the fallacy it contains using one of the following labels: {fallacies}. Use the following definitions to guide your classification: {attr}
+  Respond only with the name of the fallacy, with no additional text.\n
+  Argument: {text}\n
+  Fallacy:"
+
+new_def: *def_block
+
+exp:
+  system_prompt:
+  - "You are a logical reasoning expert. Your task is to carefully examine the given argument and classify it into one of the following classes: {fallacies}."
+  user_prompt: "Given an argument, classify the fallacy it contains. Choose one of the following labels: {fallacies}. Respond in the format:\n
+    Fallacy: [fallacy label]\n
+    Reasoning: [brief explanation justifying the choice]\n
+    The reasoning must be exactly two sentences long.\n
+    Argument: {text}\n
+    Fallacy:\n
+    Reasoning:"
+
+logical_form: &generated_patterns
+  system_prompt:
+  - "You are a logical reasoning expert. Your task is to carefully examine the given argument and classify it into one of the following classes: {fallacies}."
+  user_prompt: "Given an argument, your task is to classify the type of logical fallacy it contains. Choose one of the following labels: {fallacies}. To assist you in this task, common patterns associated with each fallacy are also provided. {attr}
+    Carefully compare the argument to these patterns and select the fallacy that best matches. Provide only the name of the fallacy.\nArgument: {text}\nFallacy:"
+
+patterns: *generated_patterns
+
+patterns_matching:
+  system_prompt:
+  - "You are a logical reasoning expert. Your task is to carefully examine the given argument and classify it into one of the following classes: {fallacies}."
+  
+  user_prompt: "Given an argument, your task is to classify the type of logical fallacy it contains. Choose one of the following labels: {fallacies}.
+    To assist you in this task, you are provided with common reasoning patterns associated with each fallacy: {attr}
+    Return:\n
+    - The specific pattern that best matches the logical reasoning in the argument. \n
+    - The name of the fallacy.\n
+    Don't add any additional text.\n
+    Argument: {text}\n
+    Fallacy:"
+    
+
+
+multistep:
+  system_prompt:
+  - "You are a logical reasoning expert. Your task is to carefully examine the given argument and classify it into one of the following classes: {fallacies}."
+  user_prompt: "Given an argument, your task is to process it in three steps:
+Step 1 (Form Extraction): 
+When given a sentence, extract its underlying syntactic logical form.
+Use abstract placeholders like A, B, C to replace specific nouns or phrases, but ensure the pattern closely mirrors the logical structure and progression of the original sentence.
+Preserve logical connectors and adverbs such as ‘therefore’, ‘because’, ‘if’, ‘then’, etc.
+The goal is to abstract away from surface wording while preserving the sentence’s original reasoning form. n
+
+Step 2 (Pattern Matching):
+From the list of known fallacy patterns provided below, return the one that most closely matches the pattern you extracted in Step 1. \n
+
+Step 3 (Fallacy Classification):
+Based on the extracted and matched pattern, classify the argument into one of the logical fallacy types from the list: {fallacies}\n
+Choose the most appropriate category based on the structure of the reasoning.\n
+
+Use the following reasoning patterns as reference for Step 2:
+{attr}\n
+
+Analyze the following argument: {text}
+Step 1 (Form Extraction):\n
+Step 2 (Matching Pattern):\n
+Step 3 (Fallacy):"
+
+guidelines:
+  system_prompt:
+  - "You are a logical reasoning expert. Your task is to carefully examine the given argument and classify it into one of the following classes: {fallacies}."
+  user_prompt: "Given an argument, your task is to classify the type of logical fallacy. Choose one of the following: {fallacies}.
+    To assist you in this task, you are provided with useful guidelines. These include typical reasoning patterns for each fallacy, common mistakes that often lead to misclassification and a quick practical checklist for classification: {attr}.
+    Return only the name of the fallacy. \n
+    Argument: {text} \n
+    Fallacy:"

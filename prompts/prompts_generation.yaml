@@ -1,0 +1,24 @@
+step1: |
+  You will be given a fallacious argument and the name of the logical fallacy it contains.
+  Your task is to explain what is happening in the argument and why it is fallacious.
+  Do not include definitions, labels or general commentary: focus only on describing the flaw
+  in reasoning specific to the example in a concise way.
+
+step2: |
+  You will be given a list of arguments containing a {fallacy_name} fallacy and an explanation
+  of why it is fallacious. Your task is to provide the following information, returning a JSON
+  object with the following fields:
+  {
+    "summary": "Write a concise summary (max 2 sentences) that captures the common logical pattern
+    behind these explanations. The summary should start with the name of the fallacy.",
+    "syntactic_patterns": "Identify common syntactic or structural patterns in how the arguments
+    are phrased.
+    - Derive the abstract logical structure following formal logic principles. Use abstract
+      placeholders like A, B, C to replace specific nouns or phrases, but ensure the pattern
+      closely mirrors the logical structure and progression of the original sentence.
+    - Find recurring sentence structures, phrases, or ways in which the fallacious reasoning
+      is introduced, including typical linguistic markers and illustrative cases that signal
+      the flawed reasoning."
+  }
+  Your explanation should help someone recognize new examples of {fallacy_name} by highlighting
+  the shared reasoning mistake across all cases.
