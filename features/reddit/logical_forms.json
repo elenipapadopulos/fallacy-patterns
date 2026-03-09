@@ -1,0 +1,22 @@
+[
+    {
+        "fallacy": "Hasty Generalization",
+        "logical_form": "Sample S is taken from population P. Sample S is a very small part of population P. Conclusion C is drawn from sample S and applied to population P."
+    },
+    {
+        "fallacy": "Ad Populum",
+        "logical_form": "A lot of people believe X.Therefore, X must be true."
+    },
+    {
+        "fallacy": "Slippery Slope",
+        "logical_form": "If A, then B, then C, ... then ultimately Z!"        
+    },
+    {
+        "fallacy": "Black-and-White Fallacy",
+        "logical_form": "Either X or Y is true."
+    },
+    {
+        "fallacy": "Irrelevant Authority",
+        "logical_form": "According to person 1, who is an expert on the issue of Y, Y is true.\nTherefore, Y is true."
+    }
+]

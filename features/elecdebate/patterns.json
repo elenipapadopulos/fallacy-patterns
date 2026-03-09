@@ -1,0 +1,55 @@
+[
+  {
+    "fallacy": "Irrelevant Authority",
+    "patterns": [
+      "A (an authority or respected figure) asserts proposition B → ∴ B, even if A is not qualified.",
+      "Group C of authorities or experts agree on B → ∴ B, treating consensus as proof.",
+      "According to A, B.', claim is accepted without evidence.",
+      "'A said that B.'",
+      "I have the endorsement/support of A who agrees that B., using authority as evidence.",
+      "Every A1, every A2, believes that B., implying that popularity among authorities is proof."
+    ]
+  },
+  {
+    "fallacy": "Emotional Language",
+    "patterns": [
+      "Emotional description of A → conclude B without substantive evidence.",
+      "Invoke sentiment about A (fear, pride, pity) → demand action B, regardless of facts.",
+      "Attach emotional qualifier to proposition A: '...endorse conclusion B as if emotion proves truth'.",
+      "A is C (e.g., 'This is dangerous.', 'This is a disgrace.') → therefore reject or accept it without reasons.",
+      "I (strongly/emphatically) B → the strength of feeling is treated as support for B."
+    ]
+  },
+  {
+    "fallacy": "False Cause",
+    "patterns": [
+      "A occurs before B ∴ assume A → B, mistaking correlation for causation without evidence of a causal link.",
+      "(A happens ∧ B follows) → infer A causes B, without considering alternatives.",
+      "Since A, B has occurred, assuming causation.",
+      "After A happened, B followed, so A must have caused B.",
+      "A led to B simply because it preceded/coincided with B (confuses sequence with cause)."
+    ]
+  },
+  {
+    "fallacy": "Ad Hominem",
+    "patterns": [
+      "A asserts B; instead of addressing B, respond with C (an irrelevant trait or action of A) → dismiss B.",
+      "A makes claim B; cite A's character/property C ∴ reject B without counterargument.",
+      "A is a C, therefore A's argument B is invalid.",
+      "Everybody knows A is C, therefore disregard A's argument.",
+      "A did X in the past, so B's point is invalid.",
+      "Look, A, C, therefore B is wrong."
+    ]
+  },
+  {
+    "fallacy": "Slippery Slope",
+    "patterns": [
+      "A occurs → assume B inevitably follows → C inevitably follows.",
+      "If A then B; if B then C; therefore if A then C.",
+      "If A, then B will happen [and C thereafter].",
+      "It will A, it will B, and it will C.",
+      "Unless A happens, B will occur and C will inevitably follow.",
+      "When A occurs, B → C (disaster)."
+    ]
+  }
+]
