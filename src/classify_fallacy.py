@@ -124,8 +124,8 @@ if args.prompt == "logical_form":
         map_in_prompt += f"{entry['fallacy']}: {entry['logical_form']}\n"
     attr = map_in_prompt
 
-if args.prompt == "patterns" or args.prompt == "patterns_matching" or args.prompt == "two_step" or args.prompt == "multistep":
-    with open(f"../features/{args.dataset}/generated_patterns.json", "r") as f:
+if args.prompt == "patterns" or args.prompt == "patterns_matching" or args.prompt == "multistep":
+    with open(f"../features/{args.dataset}/logic_generated_patterns.json", "r") as f:
         patterns_list = json.load(f)
     patterns_str = f"""\n"""
     for pattern in patterns_list:
