@@ -4,9 +4,13 @@ This anonymized repository contains the supplementary material associated with t
 
 ## Contents
 
-- [`prompts/`](./prompts/) - Prompt templates used in the experiments
+- [`prompts/`](./prompts/): prompt templates used in the experiments
+  - [`prompts.yaml`](./prompts/prompts.yaml): zero-shot classification prompts 
+  - [`prompts-one-shot.yaml`](./prompts/prompts-one-shot.yaml): one-shot classification prompts
+  - [`prompts_generation.yaml`](./prompts/prompts_generation.yaml): pattern extraction prompts
+ 
+  
 - ['patterns/'](./patterns/) -
-- [`definitions/`](./definitions/)
 
 ## Anonymization
 
