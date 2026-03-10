@@ -1,0 +1,22 @@
+[
+    {
+        "fallacy": "Emotional Language",
+        "logical_form": "Claim X is made without evidence. In place of evidence, emotion is used to convince the interlocutor that X is true."
+    },
+    {
+        "fallacy": "Ad Hominem",
+        "logical_form": "Person 1 is claiming Y.\n\nPerson 1 is a moron.\n\nTherefore, Y is not true."
+    },
+    {
+        "fallacy": "Slippery Slope",
+        "logical_form": "If A, then B, then C, ... then ultimately Z!"        
+    },
+    {
+        "fallacy": "False Cause",
+        "logical_form": "A is regularly associated with B; therefore, A causes B. "
+    },
+    {
+        "fallacy": "Irrelevant Authority",
+        "logical_form": "According to person 1, who is an expert on the issue of Y, Y is true.\nTherefore, Y is true."
+    }
+]

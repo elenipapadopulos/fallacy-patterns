@@ -1,0 +1,46 @@
+[
+    {
+      "fallacy": "Irrelevant Authority",
+      "patterns": [
+        "The argument assumes that because [authority figure] says/believes [X], therefore [X] must be true/reliable/effective.",
+        "Relying on the opinion or endorsement of [famous/unqualified person] outside their field of expertise to support [claim/conclusion].",
+        "Because [person/role/title] holds a position or is respected, their statement on [irrelevant topic] is presented as evidence.",
+        "Using [personal trait, experience, past action] as implicit proof of authority on a distinct or unrelated subject.",
+        "The argument presents [authority]'s position as the sole justification without providing independent reasons or evidence."
+      ]
+    },
+    {
+      "fallacy": "Hasty Generalization",
+      "patterns": [
+        "Because a particular instance or individual showed Z, therefore all instances or individuals must be Z",
+        "Arguing that taking a minor action will cause a chain of escalating events leading to a disastrous outcome, even though no strong evidence supports the inevitability of that chain.",
+        "Jumping from some instances to 'everyone' or 'all' without acknowledging exceptions or diversity"
+      ]
+    },
+    {
+      "fallacy": "Slippery Slope",
+      "patterns": [
+        "Arguing that taking a minor action will cause a chain of escalating events leading to a disastrous outcome, even though no strong evidence supports the inevitability of that chain.",
+        "If we allow [event A], then [event B] will happen, then [event C], and eventually [event Z] will occur—so we must not allow [event A]."
+      ]
+    },
+    {
+      "fallacy": "Ad Populum",
+      "patterns": [
+        "Because many people [do/ believe/support] X, X must be true/good/right/best/valid.",
+        "Everyone/Most people [do/believe] X, so you/one should do X too.",
+        "The popularity of X is used as evidence for X's quality, validity, or truth, rather than providing objective reasons.",
+        "Appealing to the desire to belong to a group, suggesting that conformity implies correctness or value.",
+        "Using phrases like 'everyone knows,' 'the majority thinks,' 'most people do,' to justify a conclusion without addressing actual evidence."
+      ]
+    },
+    {
+      "fallacy": "Black-and-White Fallacy",
+      "patterns": [
+        "Either [option A] or [option B], with no other alternatives considered.",
+        "You are either [extreme position A] or [extreme position B].",
+        "You are either with me or against me.",
+        "[Action A] or else [negative consequence], ignoring intermediary options."
+      ]
+    }
+  ]

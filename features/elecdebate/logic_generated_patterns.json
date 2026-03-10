@@ -1,0 +1,48 @@
+[
+    {
+        "fallacy": "Ad Hominem",
+        "patterns": [
+            "Dismisses someone's argument by accusing the opponent of similar behavior, avoiding the argument itself.",
+            "Argues that because X has characteristic Y, X's views or claims must be invalid/false.",
+            "Uses a personal insult or irrelevant fact about X to discredit X without addressing the core issue.",
+            "Focuses on unrelated personal factors (e.g., age, profession, habits) to attack the person instead of the argument."
+        ]
+    },
+    {
+        "fallacy": "Emotional Langauge",
+        "patterns": [
+            "Appeals that highlight personal circumstances or potential consequences without addressing the core issue, e.g., 'I haven't done X, but... [appeal to emotion]'.",
+            "Use of emotionally charged or loaded terms in place of neutral language, e.g., calling something an ‘outrage’, ‘dangerous militants’, or using phrases like ‘taking our freedom away’.",
+            "Rhetorical questions or statements designed to evoke feelings of guilt, sympathy, or fear, e.g., 'Don’t you want the best for your baby?', 'If we don’t do X, disaster Y will happen'.",
+            "Evocation of pity or sympathy to distract from the logical evaluation of claims, e.g., 'I studied during my grandmother’s funeral'.",
+            "Use of vivid imagery or emotionally provocative examples to bypass critical analysis, e.g., showing suffering animals or invoking dramatic suffering stories."
+        ]
+    },
+    {
+        "fallacy": "Irrelevant Authority",
+        "patterns": [
+            "The argument assumes that because [authority figure] says/believes [X], therefore [X] must be true/reliable/effective.",
+            "Relying on the opinion or endorsement of [famous/unqualified person] outside their field of expertise to support [claim/conclusion].",
+            "Because [person/role/title] holds a position or is respected, their statement on [irrelevant topic] is presented as evidence.",
+            "Using [personal trait, experience, past action] as implicit proof of authority on a distinct or unrelated subject.",
+            "The argument presents [authority]'s position as the sole justification without providing independent reasons or evidence."
+        ]
+    },
+    {
+        "fallacy": "Slippery Slope",
+        "patterns": [
+          "Arguing that taking a minor action will cause a chain of escalating events leading to a disastrous outcome, even though no strong evidence supports the inevitability of that chain.",
+          "If we allow [event A], then [event B] will happen, then [event C], and eventually [event Z] will occur—so we must not allow [event A]."
+        ]
+      },
+      {
+        "fallacy": "False Cause",
+        "patterns": [
+          "Inferring causation from correlation expressed as 'X happened when Y happened' or 'Every time X occurs, Y follows,' without evidence of a causal link.",
+          "Attributing a complex outcome to a single factor due to temporal proximity or repeated coincidence (e.g., 'Because of X, Y happened,' ignoring other influences).",
+          "Using phrases implying causality based on timing, such as 'therefore', 'must have caused', 'is the reason', or 'is the cause of', without supporting evidence.",
+          "Presenting a coincidental or correlated event as proof of causation, often ignoring other plausible causal factors or explanations.",
+          "Statements that simplify multi-factor phenomena to a single cause (e.g., 'Because of single action/event X, complex result Y occurred')."
+        ]
+      }
+]
