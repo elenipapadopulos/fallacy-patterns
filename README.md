@@ -12,7 +12,7 @@ This anonymized repository contains the supplementary material associated with t
   
 - [`features/`](./features/): features used in the experiments, organized per dataset:
   - The following four features are originally derived for the Logic dataset and restricted to the relevant fallacy classes of each dataset for the experiments reported in Section 5:
-    - `definitions.json`: fallacy definitions sourced from Jin et al. (**DEF**)
+    - `definitions.json`: fallacy definitions sourced from [Lei and Huang, 2024](https://aclanthology.org/2024.emnlp-main.730.pdf)  (**DEF**)
     - `logical_forms.json`: logical forms sourced from [LogicallyFallacious](https://www.logicallyfallacious.com) (**LOGICAL FORMS**)
     - `generated_definitions.json`: LLM-derived fallacy definitions extracted from LOGIC (**NEW DEF**)
     - `logic_generated_patterns.json`: LLM-derived fallacy patterns derived from LOGIC (**PATTERNS**)
