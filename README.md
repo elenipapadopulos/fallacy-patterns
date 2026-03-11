@@ -1,4 +1,4 @@
-# Pattern-based Logical Fallacy Classification using Decoder-only Large Language Models
+# Beyond Logical Forms: LLM-Extracted Patterns for Fallacy Classification
 
 This anonymized repository contains the supplementary material associated with the paper submitted to Argumentation Mining 2026 workshop.
 
