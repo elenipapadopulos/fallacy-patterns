@@ -1,6 +1,6 @@
 # Beyond Logical Forms: LLM-Extracted Patterns for Fallacy Classification
 
-This anonymized repository contains the supplementary material associated with the paper submitted to Argumentation Mining 2026 workshop.
+This anonymized repository contains the supplementary material associated with the paper presented at the Argumentation Mining 2026 workshop.
 
 ## Contents
 
@@ -19,8 +19,3 @@ This anonymized repository contains the supplementary material associated with t
   - `dynamic_examples.json`: examples dynamically selected via SBERT, used in one-shot experiments (**DYNAMIC ONE-SHOT**, etc.)
   - `syntax_examples_roberta.json` and `syntax_examples_sbert.json`: examples selected by  SBERT and syntax-aumented ROBERTA-large for the syntax-based approach (**SYNTAX-BASED DYNAMIC ONE-SHOT**, LOGIC dataset only)
   - `elecdebate/elecdebate_patterns.json` and `reddit/reddit_patterns.json`: LLM-derived fallacy patterns extracted from dataset-specific arguments, used in Section 5 (**SAME DATASET PATTERNS**)
- 
-  
-## Anonymization
-
-This repository has been anonymized for double-blind review using [Anonymous GitHub](https://anonymous.4open.science/).
