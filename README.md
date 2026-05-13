@@ -1,6 +1,6 @@
 # Beyond Logical Forms: LLM-Extracted Patterns for Fallacy Classification
 
-This anonymized repository contains the supplementary material associated with the paper presented at the Argumentation Mining 2026 workshop.
+This repository contains the supplementary material associated with the paper presented at the Argumentation Mining 2026 workshop.
 
 ## Contents
 
