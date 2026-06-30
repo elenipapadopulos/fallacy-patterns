@@ -89,10 +89,10 @@
     "fallacy": "Intentional Fallacy",
     "patterns": [
       "The argument assumes that because X (e.g., someone\u2019s intention, belief, or lack of counter-evidence), therefore Y is true.",
-      "Shifting the burden of proof: Asserting P is true because it has not been disproven.",
+      "Asserting P is true because it has not been disproven.",
       "Because the creator intended [interpretation], the work should be understood as [interpretation].",
       "Questions framed to presuppose guilt or a specific intention (e.g., 'Have you stopped X?'), thus assuming what is to be proven.",
-      "Says someone doesn't belong to a group because they don't match a general trait claimed about that group."
+      "If A does not have trait X, and X is allegedly typical of group G, then A is not a member of G."
     ]
   },
   {
